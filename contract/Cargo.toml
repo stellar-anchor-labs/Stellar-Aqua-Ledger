@@ -1,0 +1,3 @@
+[workspace]
+members = ["aqua_ledger"]
+resolver = "2"

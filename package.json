@@ -1,0 +1,15 @@
+{
+  "name": "stellar-aqua-ledger",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev:frontend": "npm -w frontend run dev",
+    "dev:backend": "npm -w backend run dev",
+    "build:frontend": "npm -w frontend run build",
+    "build:contract": "cd contract && cargo build --target wasm32-unknown-unknown --release"
+  }
+}
